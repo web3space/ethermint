@@ -11,7 +11,7 @@ import (
 	"web3space/ethermint/components/cosmos-sdk/crypto/keys"
 
 	emintCrypto "web3space/ethermint/crypto"
-	tmcrypto "github.com/tendermint/tendermint/crypto"
+	tmcrypto "web3space/ethermint/components/tendermint/tendermint/crypto"
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

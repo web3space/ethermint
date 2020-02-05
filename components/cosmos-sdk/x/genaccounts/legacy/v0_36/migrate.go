@@ -11,7 +11,7 @@ import (
 	v034gov "web3space/ethermint/components/cosmos-sdk/x/gov/legacy/v0_34"
 	v034staking "web3space/ethermint/components/cosmos-sdk/x/staking/legacy/v0_34"
 
-	"github.com/tendermint/tendermint/crypto"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
 )
 
 const (

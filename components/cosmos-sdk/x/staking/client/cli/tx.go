@@ -10,8 +10,8 @@ import (
 	flag "github.com/spf13/pflag"
 	"github.com/spf13/viper"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto"
+	cfg "web3space/ethermint/components/tendermint/tendermint/config"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
 
 	"web3space/ethermint/components/cosmos-sdk/client"
 	"web3space/ethermint/components/cosmos-sdk/client/context"

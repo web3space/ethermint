@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	tmclient "github.com/tendermint/tendermint/rpc/client"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpcclient "github.com/tendermint/tendermint/rpc/lib/client"
+	tmclient "web3space/ethermint/components/tendermint/tendermint/rpc/client"
+	ctypes "web3space/ethermint/components/tendermint/tendermint/rpc/core/types"
+	rpcclient "web3space/ethermint/components/tendermint/tendermint/rpc/lib/client"
 
 	"web3space/ethermint/components/cosmos-sdk/codec"
 )

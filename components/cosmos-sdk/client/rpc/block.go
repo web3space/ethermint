@@ -14,7 +14,7 @@ import (
 	"web3space/ethermint/components/cosmos-sdk/codec"
 	"web3space/ethermint/components/cosmos-sdk/types/rest"
 
-	tmliteProxy "github.com/tendermint/tendermint/lite/proxy"
+	tmliteProxy "web3space/ethermint/components/tendermint/tendermint/lite/proxy"
 )
 
 //BlockCommand returns the verified block data for a given heights

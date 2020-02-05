@@ -3,8 +3,8 @@ package staking
 import (
 	"fmt"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmtypes "github.com/tendermint/tendermint/types"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
+	tmtypes "web3space/ethermint/components/tendermint/tendermint/types"
 
 	sdk "web3space/ethermint/components/cosmos-sdk/types"
 	"web3space/ethermint/components/cosmos-sdk/x/staking/exported"

@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/gogo/protobuf/proto"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/log"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
+	"web3space/ethermint/components/tendermint/tendermint/libs/log"
 
 	"web3space/ethermint/components/cosmos-sdk/store/gaskv"
 	stypes "web3space/ethermint/components/cosmos-sdk/store/types"

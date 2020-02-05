@@ -6,10 +6,10 @@ import (
 	"os"
 	"path/filepath"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/log"
-	tmtypes "github.com/tendermint/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
+	"web3space/ethermint/components/tendermint/tendermint/libs/log"
+	tmtypes "web3space/ethermint/components/tendermint/tendermint/types"
+	dbm "web3space/ethermint/components/tendermint/tm-db"
 
 	sdk "web3space/ethermint/components/cosmos-sdk/types"
 )

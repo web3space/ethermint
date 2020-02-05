@@ -3,7 +3,7 @@ package iavl
 import (
 	"fmt"
 
-	"github.com/tendermint/iavl"
+	"web3space/ethermint/components/tendermint/iavl"
 )
 
 var (

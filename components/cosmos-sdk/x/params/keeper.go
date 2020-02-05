@@ -8,7 +8,7 @@ import (
 	"web3space/ethermint/components/cosmos-sdk/x/params/subspace"
 	"web3space/ethermint/components/cosmos-sdk/x/params/types"
 
-	"github.com/tendermint/tendermint/libs/log"
+	"web3space/ethermint/components/tendermint/tendermint/libs/log"
 )
 
 // Keeper of the global paramstore

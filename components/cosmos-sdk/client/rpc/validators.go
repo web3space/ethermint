@@ -11,7 +11,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	tmtypes "github.com/tendermint/tendermint/types"
+	tmtypes "web3space/ethermint/components/tendermint/tendermint/types"
 
 	"web3space/ethermint/components/cosmos-sdk/client/context"
 	"web3space/ethermint/components/cosmos-sdk/client/flags"

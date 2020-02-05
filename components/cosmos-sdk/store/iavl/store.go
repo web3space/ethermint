@@ -4,11 +4,11 @@ import (
 	"io"
 	"sync"
 
-	"github.com/tendermint/iavl"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto/merkle"
-	tmkv "github.com/tendermint/tendermint/libs/kv"
-	dbm "github.com/tendermint/tm-db"
+	"web3space/ethermint/components/tendermint/iavl"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/merkle"
+	tmkv "web3space/ethermint/components/tendermint/tendermint/libs/kv"
+	dbm "web3space/ethermint/components/tendermint/tm-db"
 
 	"web3space/ethermint/components/cosmos-sdk/store/cachekv"
 	"web3space/ethermint/components/cosmos-sdk/store/tracekv"

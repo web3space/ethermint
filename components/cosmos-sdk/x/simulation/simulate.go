@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
 
 	"web3space/ethermint/components/cosmos-sdk/baseapp"
 	sdk "web3space/ethermint/components/cosmos-sdk/types"

@@ -5,8 +5,8 @@ import (
 	err "web3space/ethermint/components/cosmos-sdk/types/errors"
 	sdkerrors "web3space/ethermint/components/cosmos-sdk/types/errors"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/multisig"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/multisig"
 
 	"web3space/ethermint/components/cosmos-sdk/x/auth/keeper"
 	"web3space/ethermint/components/cosmos-sdk/x/auth/types"

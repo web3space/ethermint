@@ -17,9 +17,9 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmlog "github.com/tendermint/tendermint/libs/log"
-	dbm "github.com/tendermint/tm-db"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
+	tmlog "web3space/ethermint/components/tendermint/tendermint/libs/log"
+	dbm "web3space/ethermint/components/tendermint/tm-db"
 )
 
 var (

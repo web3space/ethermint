@@ -14,12 +14,12 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	tcmd "github.com/tendermint/tendermint/cmd/tendermint/commands"
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/cli"
-	tmflags "github.com/tendermint/tendermint/libs/cli/flags"
-	"github.com/tendermint/tendermint/libs/log"
-	pvm "github.com/tendermint/tendermint/privval"
+	tcmd "web3space/ethermint/components/tendermint/tendermint/cmd/tendermint/commands"
+	cfg "web3space/ethermint/components/tendermint/tendermint/config"
+	"web3space/ethermint/components/tendermint/tendermint/libs/cli"
+	tmflags "web3space/ethermint/components/tendermint/tendermint/libs/cli/flags"
+	"web3space/ethermint/components/tendermint/tendermint/libs/log"
+	pvm "web3space/ethermint/components/tendermint/tendermint/privval"
 
 	"web3space/ethermint/components/cosmos-sdk/client/flags"
 	"web3space/ethermint/components/cosmos-sdk/codec"

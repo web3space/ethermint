@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	tmcrypto "github.com/tendermint/tendermint/crypto"
-	cryptoAmino "github.com/tendermint/tendermint/crypto/encoding/amino"
-	dbm "github.com/tendermint/tm-db"
+	tmcrypto "web3space/ethermint/components/tendermint/tendermint/crypto"
+	cryptoAmino "web3space/ethermint/components/tendermint/tendermint/crypto/encoding/amino"
+	dbm "web3space/ethermint/components/tendermint/tm-db"
 
 	"web3space/ethermint/components/cosmos-sdk/crypto/keys/keyerror"
 	"web3space/ethermint/components/cosmos-sdk/crypto/keys/mintkey"

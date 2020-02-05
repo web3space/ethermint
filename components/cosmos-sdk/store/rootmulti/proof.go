@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tendermint/iavl"
-	"github.com/tendermint/tendermint/crypto/merkle"
+	"web3space/ethermint/components/tendermint/iavl"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/merkle"
 )
 
 // MultiStoreProof defines a collection of store proofs in a multi-store

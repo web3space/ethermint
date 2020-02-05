@@ -17,7 +17,7 @@ import (
 	"web3space/ethermint/components/cosmos-sdk/x/auth/client/utils"
 	"web3space/ethermint/components/cosmos-sdk/x/auth/types"
 
-	tmtypes "github.com/tendermint/tendermint/types"
+	tmtypes "web3space/ethermint/components/tendermint/tendermint/types"
 )
 
 const (

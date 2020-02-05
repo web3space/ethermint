@@ -10,7 +10,7 @@ import (
 	authtypes "web3space/ethermint/components/cosmos-sdk/x/auth/types"
 	vestexported "web3space/ethermint/components/cosmos-sdk/x/auth/vesting/exported"
 
-	"github.com/tendermint/tendermint/crypto"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
 	"gopkg.in/yaml.v2"
 )
 

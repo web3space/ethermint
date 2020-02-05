@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto"
-	tmtypes "github.com/tendermint/tendermint/types"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
+	tmtypes "web3space/ethermint/components/tendermint/tendermint/types"
 	yaml "gopkg.in/yaml.v2"
 
 	"web3space/ethermint/components/cosmos-sdk/codec"

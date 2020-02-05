@@ -7,8 +7,8 @@ import (
 
 	"web3space/ethermint/components/go-bip39"
 	"github.com/pkg/errors"
-	tmcrypto "github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
+	tmcrypto "web3space/ethermint/components/tendermint/tendermint/crypto"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/secp256k1"
 
 	"web3space/ethermint/components/cosmos-sdk/crypto"
 	"web3space/ethermint/components/cosmos-sdk/crypto/keys/hd"

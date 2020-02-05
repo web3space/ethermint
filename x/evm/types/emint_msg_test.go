@@ -5,7 +5,7 @@ import (
 
 	sdk "web3space/ethermint/components/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/secp256k1"
 )
 
 func TestEmintMsg(t *testing.T) {

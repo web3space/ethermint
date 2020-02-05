@@ -11,7 +11,7 @@ import (
 	"web3space/ethermint/x/evm/types"
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
 )
 
 // Supported endpoints

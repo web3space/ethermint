@@ -18,11 +18,11 @@ import (
 	evmtypes "web3space/ethermint/x/evm/types"
 
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmcrypto "github.com/tendermint/tendermint/crypto"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
+	tmcrypto "web3space/ethermint/components/tendermint/tendermint/crypto"
 	"os"
-	"github.com/tendermint/tendermint/libs/log"
-	dbm "github.com/tendermint/tm-db"
+	"web3space/ethermint/components/tendermint/tendermint/libs/log"
+	dbm "web3space/ethermint/components/tendermint/tm-db"
 )
 
 type testSetup struct {

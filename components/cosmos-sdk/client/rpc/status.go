@@ -7,7 +7,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
+	ctypes "web3space/ethermint/components/tendermint/tendermint/rpc/core/types"
 
 	"web3space/ethermint/components/cosmos-sdk/client/context"
 	"web3space/ethermint/components/cosmos-sdk/client/flags"
@@ -15,7 +15,7 @@ import (
 	"web3space/ethermint/components/cosmos-sdk/types/rest"
 	"web3space/ethermint/components/cosmos-sdk/version"
 
-	"github.com/tendermint/tendermint/p2p"
+	"web3space/ethermint/components/tendermint/tendermint/p2p"
 )
 
 // StatusCommand returns the command to return the status of the network.

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	"github.com/tendermint/tendermint/mempool"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/tmhash"
+	"web3space/ethermint/components/tendermint/tendermint/mempool"
 
 	"web3space/ethermint/components/cosmos-sdk/client/flags"
 	sdk "web3space/ethermint/components/cosmos-sdk/types"

@@ -10,8 +10,8 @@ import (
 	"github.com/spf13/viper"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/tendermint/tendermint/libs/bech32"
-	"github.com/tendermint/tendermint/libs/cli"
+	"web3space/ethermint/components/tendermint/tendermint/libs/bech32"
+	"web3space/ethermint/components/tendermint/tendermint/libs/cli"
 
 	"web3space/ethermint/components/cosmos-sdk/client/flags"
 	sdk "web3space/ethermint/components/cosmos-sdk/types"

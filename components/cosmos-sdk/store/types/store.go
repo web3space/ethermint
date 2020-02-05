@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmkv "github.com/tendermint/tendermint/libs/kv"
-	dbm "github.com/tendermint/tm-db"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
+	tmkv "web3space/ethermint/components/tendermint/tendermint/libs/kv"
+	dbm "web3space/ethermint/components/tendermint/tm-db"
 )
 
 type Store interface { //nolint

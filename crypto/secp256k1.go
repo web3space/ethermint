@@ -9,7 +9,7 @@ import (
 
 	authtypes "web3space/ethermint/components/cosmos-sdk/x/auth/types"
 
-	tmcrypto "github.com/tendermint/tendermint/crypto"
+	tmcrypto "web3space/ethermint/components/tendermint/tendermint/crypto"
 )
 
 func init() {

@@ -11,8 +11,8 @@ import (
 	"github.com/rakyll/statik/fs"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/tendermint/tendermint/libs/log"
-	rpcserver "github.com/tendermint/tendermint/rpc/lib/server"
+	"web3space/ethermint/components/tendermint/tendermint/libs/log"
+	rpcserver "web3space/ethermint/components/tendermint/tendermint/rpc/lib/server"
 
 	"web3space/ethermint/components/cosmos-sdk/client/context"
 	"web3space/ethermint/components/cosmos-sdk/client/flags"

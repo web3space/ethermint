@@ -8,7 +8,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	tmcli "github.com/tendermint/tendermint/libs/cli"
+	tmcli "web3space/ethermint/components/tendermint/tendermint/libs/cli"
 
 	"web3space/ethermint/components/cosmos-sdk/crypto/keys"
 )

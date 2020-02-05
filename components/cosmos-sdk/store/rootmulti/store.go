@@ -5,10 +5,10 @@ import (
 	"io"
 	"strings"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto/merkle"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	dbm "github.com/tendermint/tm-db"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/merkle"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/tmhash"
+	dbm "web3space/ethermint/components/tendermint/tm-db"
 
 	"web3space/ethermint/components/cosmos-sdk/store/cachemulti"
 	"web3space/ethermint/components/cosmos-sdk/store/dbadapter"

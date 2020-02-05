@@ -14,10 +14,10 @@ import (
 	"github.com/99designs/keyring"
 	"github.com/pkg/errors"
 
-	"github.com/tendermint/crypto/bcrypt"
-	"github.com/tendermint/tendermint/crypto"
-	tmcrypto "github.com/tendermint/tendermint/crypto"
-	cryptoAmino "github.com/tendermint/tendermint/crypto/encoding/amino"
+	"web3space/ethermint/components/tendermint/crypto/bcrypt"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
+	tmcrypto "web3space/ethermint/components/tendermint/tendermint/crypto"
+	cryptoAmino "web3space/ethermint/components/tendermint/tendermint/crypto/encoding/amino"
 
 	"web3space/ethermint/components/cosmos-sdk/client/input"
 	"web3space/ethermint/components/cosmos-sdk/crypto/keys/keyerror"

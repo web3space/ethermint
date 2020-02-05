@@ -9,7 +9,7 @@ import (
 	emintcrypto "web3space/ethermint/crypto"
 	"web3space/ethermint/rpc"
 
-	"github.com/tendermint/go-amino"
+	"web3space/ethermint/components/tendermint/go-amino"
 
 	"web3space/ethermint/components/cosmos-sdk/client"
 	clientkeys "web3space/ethermint/components/cosmos-sdk/client/keys"
@@ -22,8 +22,8 @@ import (
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	tmamino "github.com/tendermint/tendermint/crypto/encoding/amino"
-	"github.com/tendermint/tendermint/libs/cli"
+	tmamino "web3space/ethermint/components/tendermint/tendermint/crypto/encoding/amino"
+	"web3space/ethermint/components/tendermint/tendermint/libs/cli"
 )
 
 func main() {

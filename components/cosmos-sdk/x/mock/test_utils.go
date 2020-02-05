@@ -8,8 +8,8 @@ import (
 	"web3space/ethermint/components/cosmos-sdk/codec"
 
 	"github.com/stretchr/testify/require"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
 
 	"web3space/ethermint/components/cosmos-sdk/baseapp"
 	sdk "web3space/ethermint/components/cosmos-sdk/types"

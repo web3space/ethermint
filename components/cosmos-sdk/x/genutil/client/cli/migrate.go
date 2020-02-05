@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
-	"github.com/tendermint/tendermint/types"
+	"web3space/ethermint/components/tendermint/tendermint/types"
 
 	"web3space/ethermint/components/cosmos-sdk/codec"
 	"web3space/ethermint/components/cosmos-sdk/server"

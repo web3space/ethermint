@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	amino "github.com/tendermint/go-amino"
-	cryptoamino "github.com/tendermint/tendermint/crypto/encoding/amino"
-	tmtypes "github.com/tendermint/tendermint/types"
+	amino "web3space/ethermint/components/tendermint/go-amino"
+	cryptoamino "web3space/ethermint/components/tendermint/tendermint/crypto/encoding/amino"
+	tmtypes "web3space/ethermint/components/tendermint/tendermint/types"
 )
 
 // amino codec to marshal/unmarshal

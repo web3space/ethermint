@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
+	ctypes "web3space/ethermint/components/tendermint/tendermint/rpc/core/types"
 
 	"web3space/ethermint/components/cosmos-sdk/client/context"
 	"web3space/ethermint/components/cosmos-sdk/codec"

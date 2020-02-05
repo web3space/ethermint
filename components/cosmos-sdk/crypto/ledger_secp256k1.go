@@ -7,9 +7,9 @@ import (
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/pkg/errors"
 
-	tmbtcec "github.com/tendermint/btcd/btcec"
-	tmcrypto "github.com/tendermint/tendermint/crypto"
-	tmsecp256k1 "github.com/tendermint/tendermint/crypto/secp256k1"
+	tmbtcec "web3space/ethermint/components/tendermint/btcd/btcec"
+	tmcrypto "web3space/ethermint/components/tendermint/tendermint/crypto"
+	tmsecp256k1 "web3space/ethermint/components/tendermint/tendermint/crypto/secp256k1"
 
 	"web3space/ethermint/components/cosmos-sdk/crypto/keys/hd"
 	sdk "web3space/ethermint/components/cosmos-sdk/types"

@@ -9,9 +9,9 @@ import (
 	"github.com/spf13/viper"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/tendermint/tendermint/libs/cli"
-	tmlite "github.com/tendermint/tendermint/lite"
-	rpcclient "github.com/tendermint/tendermint/rpc/client"
+	"web3space/ethermint/components/tendermint/tendermint/libs/cli"
+	tmlite "web3space/ethermint/components/tendermint/tendermint/lite"
+	rpcclient "web3space/ethermint/components/tendermint/tendermint/rpc/client"
 
 	"web3space/ethermint/components/cosmos-sdk/client/flags"
 	"web3space/ethermint/components/cosmos-sdk/codec"

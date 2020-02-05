@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/multisig"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/multisig"
 	yaml "gopkg.in/yaml.v2"
 
 	"web3space/ethermint/components/cosmos-sdk/codec"

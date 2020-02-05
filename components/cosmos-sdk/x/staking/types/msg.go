@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"github.com/tendermint/tendermint/crypto"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
 	yaml "gopkg.in/yaml.v2"
 
 	sdk "web3space/ethermint/components/cosmos-sdk/types"

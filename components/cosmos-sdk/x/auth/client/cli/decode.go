@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/tendermint/go-amino"
+	"web3space/ethermint/components/tendermint/go-amino"
 
 	"web3space/ethermint/components/cosmos-sdk/client/context"
 	"web3space/ethermint/components/cosmos-sdk/client/flags"

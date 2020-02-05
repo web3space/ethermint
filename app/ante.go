@@ -16,7 +16,7 @@ import (
 
 	ethcore "github.com/ethereum/go-ethereum/core"
 
-	tmcrypto "github.com/tendermint/tendermint/crypto"
+	tmcrypto "web3space/ethermint/components/tendermint/tendermint/crypto"
 )
 
 const (

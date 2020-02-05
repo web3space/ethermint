@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/ed25519"
 
 	sdk "web3space/ethermint/components/cosmos-sdk/types"
 )

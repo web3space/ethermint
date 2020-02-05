@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "web3space/ethermint/components/tendermint/tm-db"
 )
 
 var (

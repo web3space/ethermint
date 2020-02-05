@@ -9,9 +9,9 @@ import (
 	"github.com/spf13/cobra"
 	flag "github.com/spf13/pflag"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
+	cfg "web3space/ethermint/components/tendermint/tendermint/config"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
 
 	"web3space/ethermint/components/cosmos-sdk/client/context"
 	"web3space/ethermint/components/cosmos-sdk/codec"

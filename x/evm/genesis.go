@@ -7,7 +7,7 @@ import (
 	sdk "web3space/ethermint/components/cosmos-sdk/types"
 	"web3space/ethermint/types"
 	ethcmn "github.com/ethereum/go-ethereum/common"
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
 )
 
 type (

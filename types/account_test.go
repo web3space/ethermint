@@ -7,8 +7,8 @@ import (
 	sdk "web3space/ethermint/components/cosmos-sdk/types"
 	"web3space/ethermint/components/cosmos-sdk/x/auth"
 	"github.com/stretchr/testify/require"
-	tmamino "github.com/tendermint/tendermint/crypto/encoding/amino"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
+	tmamino "web3space/ethermint/components/tendermint/tendermint/crypto/encoding/amino"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/secp256k1"
 
 	emintcrypto "web3space/ethermint/crypto"
 )

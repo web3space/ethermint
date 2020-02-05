@@ -7,8 +7,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/tendermint/tendermint/libs/cli"
-	tmtypes "github.com/tendermint/tendermint/types"
+	"web3space/ethermint/components/tendermint/tendermint/libs/cli"
+	tmtypes "web3space/ethermint/components/tendermint/tendermint/types"
 
 	"web3space/ethermint/components/cosmos-sdk/client/flags"
 	"web3space/ethermint/components/cosmos-sdk/codec"

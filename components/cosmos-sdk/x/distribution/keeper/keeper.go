@@ -9,7 +9,7 @@ import (
 	"web3space/ethermint/components/cosmos-sdk/x/distribution/types"
 	"web3space/ethermint/components/cosmos-sdk/x/params"
 
-	"github.com/tendermint/tendermint/libs/log"
+	"web3space/ethermint/components/tendermint/tendermint/libs/log"
 )
 
 // Keeper of the distribution store

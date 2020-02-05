@@ -5,12 +5,12 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/libs/log"
-	dbm "github.com/tendermint/tm-db"
+	"web3space/ethermint/components/tendermint/tendermint/libs/log"
+	dbm "web3space/ethermint/components/tendermint/tm-db"
 
 	"web3space/ethermint/components/cosmos-sdk/codec"
 
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
 )
 
 func TestEthermintAppExport(t *testing.T) {

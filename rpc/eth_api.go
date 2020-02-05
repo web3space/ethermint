@@ -18,8 +18,8 @@ import (
 	"web3space/ethermint/x/evm"
 	"web3space/ethermint/x/evm/types"
 
-	"github.com/tendermint/tendermint/rpc/client"
-	tmtypes "github.com/tendermint/tendermint/types"
+	"web3space/ethermint/components/tendermint/tendermint/rpc/client"
+	tmtypes "web3space/ethermint/components/tendermint/tendermint/types"
 
 	"github.com/ethereum/go-ethereum/accounts/keystore"
 	"github.com/ethereum/go-ethereum/common"
@@ -484,7 +484,7 @@ func (e *PublicEthAPI) GetBlockByNumber(blockNum BlockNumber, fullTx bool) (map[
 }
 
 func (e *PublicEthAPI) getEthBlockByNumber(value int64, fullTx bool) (map[string]interface{}, error) {
-	// Remove this check when 0 query is fixed ref: (https://github.com/tendermint/tendermint/issues/4014)
+	// Remove this check when 0 query is fixed ref: (https://web3space/ethermint/components/tendermint/tendermint/issues/4014)
 	var blkNumPtr *int64
 	if value != 0 {
 		blkNumPtr = &value

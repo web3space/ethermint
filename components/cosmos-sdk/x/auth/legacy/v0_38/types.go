@@ -11,7 +11,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/tendermint/tendermint/crypto"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
 
 	"web3space/ethermint/components/cosmos-sdk/codec"
 	sdk "web3space/ethermint/components/cosmos-sdk/types"

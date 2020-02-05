@@ -9,7 +9,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/tendermint/tendermint/libs/cli"
+	"web3space/ethermint/components/tendermint/tendermint/libs/cli"
 
 	"web3space/ethermint/components/cosmos-sdk/codec"
 	"web3space/ethermint/components/cosmos-sdk/server"

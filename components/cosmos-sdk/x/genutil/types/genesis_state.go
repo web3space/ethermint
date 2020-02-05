@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	tmos "github.com/tendermint/tendermint/libs/os"
-	tmtypes "github.com/tendermint/tendermint/types"
+	tmos "web3space/ethermint/components/tendermint/tendermint/libs/os"
+	tmtypes "web3space/ethermint/components/tendermint/tendermint/types"
 
 	"web3space/ethermint/components/cosmos-sdk/codec"
 	authtypes "web3space/ethermint/components/cosmos-sdk/x/auth/types"

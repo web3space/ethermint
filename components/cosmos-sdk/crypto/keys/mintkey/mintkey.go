@@ -4,14 +4,14 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/tendermint/crypto/bcrypt"
+	"web3space/ethermint/components/tendermint/crypto/bcrypt"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/armor"
-	cryptoAmino "github.com/tendermint/tendermint/crypto/encoding/amino"
-	"github.com/tendermint/tendermint/crypto/xsalsa20symmetric"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/armor"
+	cryptoAmino "web3space/ethermint/components/tendermint/tendermint/crypto/encoding/amino"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/xsalsa20symmetric"
 
-	tmos "github.com/tendermint/tendermint/libs/os"
+	tmos "web3space/ethermint/components/tendermint/tendermint/libs/os"
 
 	"web3space/ethermint/components/cosmos-sdk/crypto/keys/keyerror"
 )

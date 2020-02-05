@@ -10,10 +10,10 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/tendermint/tendermint/crypto/ed25519"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/ed25519"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
 
 	sdk "web3space/ethermint/components/cosmos-sdk/types"
 	sdkerrors "web3space/ethermint/components/cosmos-sdk/types/errors"

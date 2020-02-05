@@ -8,9 +8,9 @@ import (
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/pkg/errors"
 
-	secp256k1 "github.com/tendermint/btcd/btcec"
-	"github.com/tendermint/tendermint/crypto"
-	tmsecp256k1 "github.com/tendermint/tendermint/crypto/secp256k1"
+	secp256k1 "web3space/ethermint/components/tendermint/btcd/btcec"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
+	tmsecp256k1 "web3space/ethermint/components/tendermint/tendermint/crypto/secp256k1"
 
 	bip39 "web3space/ethermint/components/go-bip39"
 

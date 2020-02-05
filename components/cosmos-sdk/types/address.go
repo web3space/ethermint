@@ -8,11 +8,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tendermint/tendermint/crypto"
-	tmamino "github.com/tendermint/tendermint/crypto/encoding/amino"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
+	tmamino "web3space/ethermint/components/tendermint/tendermint/crypto/encoding/amino"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/tendermint/tendermint/libs/bech32"
+	"web3space/ethermint/components/tendermint/tendermint/libs/bech32"
 )
 
 const (

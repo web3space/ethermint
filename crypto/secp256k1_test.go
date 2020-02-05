@@ -7,7 +7,7 @@ import (
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	ethsecp256k1 "github.com/ethereum/go-ethereum/crypto/secp256k1"
 	"github.com/stretchr/testify/require"
-	tmcrypto "github.com/tendermint/tendermint/crypto"
+	tmcrypto "web3space/ethermint/components/tendermint/tendermint/crypto"
 )
 
 func TestPrivKeySecp256k1PrivKey(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
 
 	"web3space/ethermint/components/cosmos-sdk/client"
 	"web3space/ethermint/components/cosmos-sdk/codec"

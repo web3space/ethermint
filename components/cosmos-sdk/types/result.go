@@ -9,7 +9,7 @@ import (
 
 	"web3space/ethermint/components/cosmos-sdk/codec"
 
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
+	ctypes "web3space/ethermint/components/tendermint/tendermint/rpc/core/types"
 )
 
 // GasInfo defines tx execution gas context.

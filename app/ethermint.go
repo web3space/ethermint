@@ -30,9 +30,9 @@ import (
 	eminttypes "web3space/ethermint/types"
 	evmtypes "web3space/ethermint/x/evm/types"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmlog "github.com/tendermint/tendermint/libs/log"
-	dbm "github.com/tendermint/tm-db"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
+	tmlog "web3space/ethermint/components/tendermint/tendermint/libs/log"
+	dbm "web3space/ethermint/components/tendermint/tm-db"
 )
 
 const appName = "Ethermint"

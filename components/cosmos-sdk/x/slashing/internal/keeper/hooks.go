@@ -4,7 +4,7 @@ package keeper
 import (
 	"time"
 
-	"github.com/tendermint/tendermint/crypto"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
 
 	sdk "web3space/ethermint/components/cosmos-sdk/types"
 	"web3space/ethermint/components/cosmos-sdk/x/slashing/internal/types"

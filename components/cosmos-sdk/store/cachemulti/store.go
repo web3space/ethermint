@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "web3space/ethermint/components/tendermint/tm-db"
 
 	"web3space/ethermint/components/cosmos-sdk/store/cachekv"
 	"web3space/ethermint/components/cosmos-sdk/store/dbadapter"

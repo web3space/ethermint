@@ -12,7 +12,7 @@ import (
 	emint "web3space/ethermint/types"
 	"web3space/ethermint/x/evm/types"
 
-	tm "github.com/tendermint/tendermint/types"
+	tm "web3space/ethermint/components/tendermint/tendermint/types"
 )
 
 // NewHandler returns a handler for Ethermint type messages.

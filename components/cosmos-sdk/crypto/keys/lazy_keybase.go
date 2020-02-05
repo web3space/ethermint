@@ -3,8 +3,8 @@ package keys
 import (
 	"fmt"
 
-	"github.com/tendermint/tendermint/crypto"
-	tmos "github.com/tendermint/tendermint/libs/os"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
+	tmos "web3space/ethermint/components/tendermint/tendermint/libs/os"
 
 	sdk "web3space/ethermint/components/cosmos-sdk/types"
 )

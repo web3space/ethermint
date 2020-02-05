@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"encoding/hex"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/crypto/multisig"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/ed25519"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/multisig"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/secp256k1"
 
 	"web3space/ethermint/components/cosmos-sdk/codec"
 	sdk "web3space/ethermint/components/cosmos-sdk/types"

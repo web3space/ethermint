@@ -2,8 +2,8 @@ package encoding
 
 import (
 	emintcrypto "web3space/ethermint/crypto"
-	amino "github.com/tendermint/go-amino"
-	tmcrypto "github.com/tendermint/tendermint/crypto"
+	amino "web3space/ethermint/components/tendermint/go-amino"
+	tmcrypto "web3space/ethermint/components/tendermint/tendermint/crypto"
 )
 
 var cdc = amino.NewCodec()

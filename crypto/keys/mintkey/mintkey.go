@@ -4,13 +4,13 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/tendermint/crypto/bcrypt"
+	"web3space/ethermint/components/tendermint/crypto/bcrypt"
 
 	emintEncoding "web3space/ethermint/crypto/encoding"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/armor"
+	"web3space/ethermint/components/tendermint/tendermint/crypto"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/armor"
 
-	"github.com/tendermint/tendermint/crypto/xsalsa20symmetric"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/xsalsa20symmetric"
 
 	"os"
 

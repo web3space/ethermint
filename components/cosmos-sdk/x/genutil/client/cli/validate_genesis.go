@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/spf13/cobra"
-	tmtypes "github.com/tendermint/tendermint/types"
+	tmtypes "web3space/ethermint/components/tendermint/tendermint/types"
 
 	"web3space/ethermint/components/cosmos-sdk/codec"
 	"web3space/ethermint/components/cosmos-sdk/server"

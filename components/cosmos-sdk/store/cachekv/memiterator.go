@@ -4,8 +4,8 @@ import (
 	"container/list"
 	"errors"
 
-	tmkv "github.com/tendermint/tendermint/libs/kv"
-	dbm "github.com/tendermint/tm-db"
+	tmkv "web3space/ethermint/components/tendermint/tendermint/libs/kv"
+	dbm "web3space/ethermint/components/tendermint/tm-db"
 )
 
 // Iterates over iterKVCache items.

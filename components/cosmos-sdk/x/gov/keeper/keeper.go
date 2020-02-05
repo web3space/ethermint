@@ -9,7 +9,7 @@ import (
 	"web3space/ethermint/components/cosmos-sdk/x/gov/types"
 	"web3space/ethermint/components/cosmos-sdk/x/supply/exported"
 
-	"github.com/tendermint/tendermint/libs/log"
+	"web3space/ethermint/components/tendermint/tendermint/libs/log"
 )
 
 // Keeper defines the governance module Keeper

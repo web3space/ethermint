@@ -7,9 +7,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	tmcrypto "github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/multisig"
-	"github.com/tendermint/tendermint/libs/cli"
+	tmcrypto "web3space/ethermint/components/tendermint/tendermint/crypto"
+	"web3space/ethermint/components/tendermint/tendermint/crypto/multisig"
+	"web3space/ethermint/components/tendermint/tendermint/libs/cli"
 
 	"web3space/ethermint/components/cosmos-sdk/client/flags"
 	"web3space/ethermint/components/cosmos-sdk/crypto"

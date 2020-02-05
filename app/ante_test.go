@@ -6,7 +6,7 @@ import (
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
-	tmcrypto "github.com/tendermint/tendermint/crypto"
+	tmcrypto "web3space/ethermint/components/tendermint/tendermint/crypto"
 
 	sdk "web3space/ethermint/components/cosmos-sdk/types"
 	"web3space/ethermint/components/cosmos-sdk/x/auth"

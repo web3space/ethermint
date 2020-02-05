@@ -27,12 +27,12 @@ import (
 	"web3space/ethermint/client/genaccounts"
 	emintcrypto "web3space/ethermint/crypto"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	tmamino "github.com/tendermint/tendermint/crypto/encoding/amino"
-	"github.com/tendermint/tendermint/libs/cli"
-	tmlog "github.com/tendermint/tendermint/libs/log"
-	tmtypes "github.com/tendermint/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	abci "web3space/ethermint/components/tendermint/tendermint/abci/types"
+	tmamino "web3space/ethermint/components/tendermint/tendermint/crypto/encoding/amino"
+	"web3space/ethermint/components/tendermint/tendermint/libs/cli"
+	tmlog "web3space/ethermint/components/tendermint/tendermint/libs/log"
+	tmtypes "web3space/ethermint/components/tendermint/tendermint/types"
+	dbm "web3space/ethermint/components/tendermint/tm-db"
 )
 
 func main() {

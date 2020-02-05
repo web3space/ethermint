@@ -8,7 +8,7 @@ import (
 	"web3space/ethermint/components/cosmos-sdk/x/auth"
 	"web3space/ethermint/components/cosmos-sdk/x/auth/exported"
 	authtypes "web3space/ethermint/components/cosmos-sdk/x/auth/types"
-	tmamino "github.com/tendermint/tendermint/crypto/encoding/amino"
+	tmamino "web3space/ethermint/components/tendermint/tendermint/crypto/encoding/amino"
 	"gopkg.in/yaml.v2"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
