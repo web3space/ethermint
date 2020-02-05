@@ -2,7 +2,7 @@
 
 package crypto
 
-import ledger "web3space/ethermint/componentsledger-cosmos-go"
+import ledger "web3space/ethermint/components/ledger-cosmos-go"
 
 // If ledger support (build tag) has been enabled, which implies a CGO dependency,
 // set the discoverLedger function which is responsible for loading the Ledger
